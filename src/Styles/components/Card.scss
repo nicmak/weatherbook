@@ -1,0 +1,49 @@
+.temperature {
+  color:$color-telus-purple;
+  
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  font-family:$PrimaryFont;
+}
+
+.location {
+	font-size:4vw;
+
+	font-weight:100;
+	color:$color-telus-green;
+}
+
+.weatherIcon  {
+	width:25vw;
+	img {
+		width:100%;
+	}
+}
+.median {
+	font-size: 9vw;
+  font-weight: 100;
+}
+
+.minmax {
+	font-size:2vw;
+}
+
+.Details {
+	font-size:2vw;
+	text-transform:capitalize;
+}
+
+.OuterContainer {
+// background:rgba(255, 255, 255, 0.86);	
+height:100vh;
+}
+.shadowContainer {
+	background:linear-gradient(rgba(255, 255, 255, 0.85) 1%, rgba(0, 0, 0, 0) 23%, rgb(255, 255, 255) 102%);
+
+}
+.imageContainer {
+	background-size:cover;
+}
+
+

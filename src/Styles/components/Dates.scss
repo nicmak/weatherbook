@@ -1,0 +1,11 @@
+.dateButtons {
+	padding:0vw 11vw;
+}
+
+.dateButton {
+	font-family:$PrimaryFont;
+	&:hover {
+		cursor:pointer;
+	}
+}
+

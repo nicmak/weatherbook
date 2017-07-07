@@ -1,0 +1,34 @@
+.temperature {
+  display: flex;
+  flex-flow: column;
+  align-items: center; }
+
+.location {
+  font-size: 4vw;
+  font-weight: 100; }
+
+.weatherIcon {
+  width: 25vw; }
+  .weatherIcon img {
+    width: 100%; }
+
+.median {
+  font-size: 9vw;
+  font-weight: 100; }
+
+.minmax {
+  font-size: 2vw; }
+
+.Details {
+  font-size: 2vw;
+  text-transform: capitalize; }
+
+.OuterContainer {
+  background: rgba(255, 255, 255, 0.86);
+  height: 100vh; }
+
+.shadowContainer {
+  background: linear-gradient(rgba(255, 255, 255, 0.85) 1%, transparent 23%, white 102%); }
+
+.imageContainer {
+  background-size: cover; }

@@ -1,0 +1,58 @@
+.temperature {
+  color: #4B286D;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.location {
+  font-size: 4vw;
+  font-weight: 100;
+  color: #66CC00; }
+
+.weatherIcon {
+  width: 25vw; }
+  .weatherIcon img {
+    width: 100%; }
+
+.median {
+  font-size: 9vw;
+  font-weight: 100; }
+
+.minmax {
+  font-size: 2vw; }
+
+.Details {
+  font-size: 2vw;
+  text-transform: capitalize; }
+
+.OuterContainer {
+  height: 100vh; }
+
+.shadowContainer {
+  background: linear-gradient(rgba(255, 255, 255, 0.85) 1%, transparent 23%, white 102%); }
+
+.imageContainer {
+  background-size: cover; }
+
+.react-autosuggest__container {
+  margin: 2vw 0vw; }
+
+.react-autosuggest__suggestions-container {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  border-radius: 0;
+  z-index: 300; }
+
+.react-autosuggest__suggestion:hover {
+  cursor: pointer; }
+
+.dateButtons {
+  padding: 0vw 11vw; }
+
+.dateButton {
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .dateButton:hover {
+    cursor: pointer; }
