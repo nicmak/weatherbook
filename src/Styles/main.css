@@ -7,6 +7,7 @@
 
 .location {
   font-size: 4vw;
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   color: #66CC00; }
 
@@ -24,7 +25,9 @@
 
 .Details {
   font-size: 2vw;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold; }
 
 .OuterContainer {
   height: 100vh; }
@@ -61,3 +64,6 @@
   font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .dateButton:hover {
     cursor: pointer; }
+
+.dateButtonsCol {
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }

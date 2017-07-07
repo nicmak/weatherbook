@@ -21,13 +21,14 @@
 
 .Details {
   font-size: 2vw;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-weight: bold; }
 
 .OuterContainer {
   height: 100vh; }
 
 .shadowContainer {
-  background: linear-gradient(rgba(255, 255, 255, 0.85) 1%, transparent 23%, white 102%); }
+  background: rgba(255, 255, 255, 0.63); }
 
 .imageContainer {
   background-size: cover; }

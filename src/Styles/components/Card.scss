@@ -9,6 +9,7 @@
 
 .location {
 	font-size:4vw;
+  font-family:$PrimaryFont;
 
 	font-weight:100;
 	color:$color-telus-green;
@@ -32,6 +33,9 @@
 .Details {
 	font-size:2vw;
 	text-transform:capitalize;
+  font-family:$PrimaryFont;
+  font-weight:bold;
+
 }
 
 .OuterContainer {

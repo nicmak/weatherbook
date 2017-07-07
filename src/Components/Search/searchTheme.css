@@ -9,5 +9,7 @@
   border-radius: 0;
   z-index: 300; }
 
-.react-autosuggest__suggestion:hover {
-  cursor: pointer; }
+.react-autosuggest__suggestion {
+  padding-left: 1vw; }
+  .react-autosuggest__suggestion:hover {
+    cursor: pointer; }
