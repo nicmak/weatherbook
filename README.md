@@ -4,7 +4,7 @@ WeatherBook is a React-ReduxJS application that loads data from the [AccuWeather
 
 Styling Theme is based on Telus Digital Lab's Telus-Thorium Core [Telus Design System](http://tds.telus.digital).
 
-
+<a href="https://imgflip.com/gif/1s3rrp"><img src="https://i.imgflip.com/1s3rrp.gif" title="made at imgflip.com"/></a>
 
 ## GitHub Pages Demo
 
