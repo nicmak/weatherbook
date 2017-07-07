@@ -1,5 +1,10 @@
 .dateButtons {
   padding: 0vw 11vw; }
 
-.dateButton:hover {
-  cursor: pointer; }
+.dateButton {
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .dateButton:hover {
+    cursor: pointer; }
+
+.dateButtonsCol {
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }

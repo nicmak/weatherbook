@@ -75,7 +75,7 @@ class App extends Component {
     let city = encodeURI(value)
     console.log('searchCity', city)
     return request
-      .get(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=QrfgGRd20zQSJQgbmGVWNYT3cHPfIDgN&q=${city}`)
+      .get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=QrfgGRd20zQSJQgbmGVWNYT3cHPfIDgN&q=${city}`)
       .then( async (res, err) => {
         if (res) {
           return JSON.parse(res.text)
@@ -87,7 +87,7 @@ class App extends Component {
 
   ForecastCall = (cityID) => {
     return request
-      .get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityID}?apikey=KTml5XBAyj7JzMGGFMhZ7wJuYY1eDi77&metric=true`)
+      .get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityID}?apikey=KTml5XBAyj7JzMGGFMhZ7wJuYY1eDi77&metric=true`)
       .then((res,err) => {
         if (res) {
           return JSON.parse(res.text)

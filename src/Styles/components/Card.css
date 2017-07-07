@@ -1,11 +1,15 @@
 .temperature {
+  color: #4B286D;
   display: flex;
   flex-flow: column;
-  align-items: center; }
+  align-items: center;
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .location {
   font-size: 4vw;
-  font-weight: 100; }
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #66CC00; }
 
 .weatherIcon {
   width: 25vw; }
@@ -22,6 +26,7 @@
 .Details {
   font-size: 2vw;
   text-transform: capitalize;
+  font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold; }
 
 .OuterContainer {

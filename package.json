@@ -1,8 +1,10 @@
 {
   "name": "weatherbook",
+  "homepage": "https://nicmak.github.io/weatherbook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "moment": "^2.18.1",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
@@ -21,6 +23,8 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
