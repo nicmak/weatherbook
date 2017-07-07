@@ -11,7 +11,6 @@
  }
 
  ::-webkit-input-placeholder  {
-    // color:blue;
    }
 
 .react-autosuggest__suggestions-container {
@@ -19,15 +18,17 @@
 	color:white;
 	background: rgba(0, 0, 0, 0.85);
 	position: absolute;
-	// font-family:$PrimaryFont;
+	font-family:$PrimaryFont;
 	border-radius:0;
 	z-index: 300;
 }
 
 .react-autosuggest__suggestion {
+	font-family:$PrimaryFont;
+	padding-left:1vw;
 	&:hover {
 		cursor:pointer;
-		// color:$color-telus-green;
+		color:$color-telus-green;
 	}
 
 }

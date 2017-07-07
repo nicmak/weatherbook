@@ -39,8 +39,8 @@
 height:100vh;
 }
 .shadowContainer {
-	background:linear-gradient(rgba(255, 255, 255, 0.85) 1%, rgba(0, 0, 0, 0) 23%, rgb(255, 255, 255) 102%);
-
+	// background:linear-gradient(rgba(255, 255, 255, 0.85) 1%, rgba(0, 0, 0, 0) 23%, rgb(255, 255, 255) 102%);
+background:rgba(255, 255, 255, 0.63);
 }
 .imageContainer {
 	background-size:cover;
