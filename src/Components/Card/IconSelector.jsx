@@ -46,7 +46,7 @@ class IconSelector extends Component {
 
 	render() {
 		return (
-      <div className='weatherIcon large-4 pull-large-1'>
+      <div className='weatherIcon large-4 pull-large-1 small-12 xs-12' >
         <img src={this.chosenIcon() || Snow }/>
       </div>
 		)

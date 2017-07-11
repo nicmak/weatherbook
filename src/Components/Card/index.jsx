@@ -42,11 +42,11 @@ class CardIndex extends Component {
 		return (
 			<section className='CardContainer'>
 			  <div className='grid-row'>
-			    <div className='location large-6 push-large-2'>{`${city.EnglishName}, ${city.AdministrativeArea.ID}`|| `MIAMI`}</div>
+			    <div className='location large-6 push-large-2 xs-12'>{`${city.EnglishName}, ${city.AdministrativeArea.ID}`|| `MIAMI`}</div>
 			  </div>
 			  <div className='grid-row'>
-          <div className='temperature large-6'>
-            <div className='median large-6 push-large-1'>
+          <div className='temperature large-6 xs-12'>
+            <div className='median large-6 push-large-1 xs-12'>
               {this.medianTemp()}&#8451;
              </div>
             <div className='minmax large-6 push-large-1'>

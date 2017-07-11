@@ -8,13 +8,11 @@
 .location {
   font-size: 4vw;
   font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   color: #66CC00; }
 
-.weatherIcon {
-  width: 25vw; }
-  .weatherIcon img {
-    width: 100%; }
+.weatherIcon img {
+  width: 100%; }
 
 .median {
   font-size: 9vw;
@@ -29,11 +27,26 @@
   font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold; }
 
+@media (max-width: 990px) {
+  .location {
+    font-size: 15vw;
+    text-align: center; }
+  .median {
+    font-size: 29vw;
+    text-align: center; }
+  .minmax {
+    font-size: 10vw; }
+  .Details {
+    font-size: 5vw;
+    text-transform: capitalize;
+    font-family: "TELUS-Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; } }
+
 .OuterContainer {
   height: 100vh; }
 
 .shadowContainer {
-  background: rgba(255, 255, 255, 0.63); }
+  background: linear-gradient(rgba(255, 255, 255, 0.85) 1%, transparent 23%, white 102%); }
 
 .imageContainer {
   background-size: cover; }

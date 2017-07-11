@@ -87,7 +87,7 @@ class App extends Component {
 
   ForecastCall = (cityID) => {
     return request
-      .get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityID}?apikey=KTml5XBAyj7JzMGGFMhZ7wJuYY1eDi77&metric=true`)
+      .get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityID}?apikey=QrfgGRd20zQSJQgbmGVWNYT3cHPfIDgN&metric=true`)
       .then((res,err) => {
         if (res) {
           return JSON.parse(res.text)
@@ -143,21 +143,18 @@ class App extends Component {
               />
               <div className='grid-row' style={{paddingLeft:'2vw',background: 'rgba(255, 255, 255, 0.74)',borderRadius: '3vw'}}>
                 {
-                    !_.isEmpty(this.props.city) && !_.isEmpty(this.props.forecastStore)?
+                  !_.isEmpty(this.props.city) && !_.isEmpty(this.props.forecastStore)?
                     <Card
-                     city = {this.props.city}
-                     forecastStore = {this.props.forecastStore}
+                      city = {this.props.city}
+                      forecastStore = {this.props.forecastStore}
                     />
-
-                  :null
-                  
+                  :null 
                 }
                 {
                   !_.isEmpty(this.props.city) ?
                     <Dates/>
                   :null
                 }
-               
               </div>
             </div>
           </div>  
