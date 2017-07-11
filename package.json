@@ -1,6 +1,5 @@
 {
   "name": "weatherbook",
-  "homepage": "https://nicmak.github.io/weatherbook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
