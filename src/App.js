@@ -5,6 +5,8 @@ import { selectedCityAction, finishedCitySelection } from './Actions/searchActio
 import request from 'superagent';
 import moment from 'moment';
 import _ from 'underscore';
+import jsonp from 'superagent-jsonp';
+
 
 // Components
 import Card  from './Components/Card';
@@ -51,6 +53,7 @@ class App extends Component {
   placesGoogle = (coordinates) => {
     return request 
     .get(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${coordinates}&radius=500&key=AIzaSyAvL8yhpdzfhxItMOPcHPq0OGUY-eqqbpM`)
+    .use(jsonp)
     .then((res, err) => {
       if (res) {
         return JSON.parse(res.text)
