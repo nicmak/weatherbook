@@ -17,9 +17,9 @@ Styling Theme is based on Telus Digital Lab's Telus-Thorium Core [Telus Design S
 * [React AutoSuggest](https://github.com/moroshko/react-autosuggest)
 * [React BootStrap](https://react-bootstrap.github.io/)
 * [SASS](http://sass-lang.com/)
+* [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-## Things Left ToDo
-* Fully Implement BootStrap for Responsive Designs
+## Important
 
 ## Installation
 

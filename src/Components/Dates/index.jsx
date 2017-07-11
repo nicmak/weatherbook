@@ -29,6 +29,7 @@ class DatesIndex extends Component {
 			    onClick = { () => {this.props.selectDay(dayKey)} }
 			    className="button button--primary"
 			    style={{outline:'none'}}
+			    key={index}
 			  >
           {dayKey}
         </button>

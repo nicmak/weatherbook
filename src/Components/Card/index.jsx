@@ -71,11 +71,5 @@ class CardIndex extends Component {
 CardIndex = connect(mapStateToProps, null)(CardIndex)
 export default CardIndex;
 
-// <div className='grid-row'>
-//           <div className='statsBox large-5 push-large-5'>
-//             <div className='large-6'>Precipitation: 20%</div>
-//             <div className='large-6'>Humidity: 20%</div>
-//             <div className='large-6'>Wind: 13Km/hr</div>
-//             <div className='large-6'>Air Quality: Good</div>
-//           </div>
+
 //         </div>
