@@ -51,7 +51,7 @@ class SearchIndex extends Component {
 		this.props.selectForecast(forecastStore);
 		let cityArray = await this.props.placesGoogle(coordinates)
     console.log(cityArray, 'cityArray')
-    // let photoRef = await this.props.photosGoogle(cityArray.results[0].photos[0].photo_reference, cityArray.results[0].photos[0].width)
+    let photoRef = await this.props.photosGoogle(cityArray.results[0].photos[0].photo_reference, cityArray.results[0].photos[0].width)
 
 	}
 
