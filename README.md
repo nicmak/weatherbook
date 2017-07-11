@@ -6,7 +6,9 @@ Styling Theme is based on Telus Digital Lab's Telus-Thorium Core [Telus Design S
 
 <a href="https://imgflip.com/gif/1s3ru7"><img src="https://i.imgflip.com/1s3ru7.gif" title="made at imgflip.com"/></a>
 
-## GitHub Pages Demo
+## Heroku Demo
+
+* [Demo](https://weatherbooks.herokuapp.com/)
 
 ## Tools that were used to make this application
 
