@@ -21,7 +21,8 @@ Styling Theme is based on Telus Digital Lab's Telus-Thorium Core [Telus Design S
 * [SASS](http://sass-lang.com/)
 * [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
-## Important
+## Important Left To Do
+Google Places API rejecting calls due to CORS, solve this ...
 
 ## Installation
 
